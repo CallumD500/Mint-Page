@@ -6,6 +6,7 @@
     v-else
     v-bind="$props"
     custom
+    active-class="text-red-500"
     class="cursor-pointer">
     <a
       v-bind="$attrs"
@@ -27,6 +28,8 @@ const props = defineProps({
   inactiveClass: String,
   exact: Boolean,
 })
+
+const activeClass = computed(() => 'text-red-500')
 
 // `props` contains `to` and any other prop that can be passed to <router-link>
 const { navigate, href, route, isActive, isExactActive } = useLink(props)

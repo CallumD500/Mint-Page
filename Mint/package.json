@@ -8,14 +8,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@alch/alchemy-web3": "^1.4.7",
     "@headlessui/vue": "^1.7.4",
     "@heroicons/vue": "^2.0.13",
+    "alchemy-sdk": "^2.2.4",
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
     "heroicons": "^2.0.13",
     "path": "^0.12.7",
     "pinia": "^2.0.26",
     "url": "^0.11.0",
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "web3": "^1.8.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",

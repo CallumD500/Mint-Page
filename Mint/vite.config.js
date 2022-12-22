@@ -6,6 +6,9 @@ import { fileURLToPath } from 'url'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  define: {
+    global: {},
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
